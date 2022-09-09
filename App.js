@@ -142,7 +142,7 @@ const CustomDrawerNavigator = ()=>{
 const AuthScreen = ()=>{
   return (
     <AuthStack.Navigator>
-          <AuthStack.Screen name="SignInScreen" component={SignInScreen} options={{headerShown: false}}></AuthStack.Screen>
+          <AuthStack.Screen name="SignInScreen" component={SignInScreen} options={{headerShown: false, title: "Sign In"}} ></AuthStack.Screen>
           <AuthStack.Screen name="CreateAccountScreen" component={CreateAccountScreen} options={{title: "Create Account"}}></AuthStack.Screen>
           <AuthStack.Screen name="LoginScreen" component={LoginScreen} options={{title: "Log In"}}></AuthStack.Screen>
       </AuthStack.Navigator>
